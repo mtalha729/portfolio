@@ -89,7 +89,7 @@ export default function Header()
                             </li>
                             <li
                             onClick={() => {scrollTosection("Contact");  setmenuopen(false);}}
-                            className="py-4 hover:bg-gray-100 cursor-pointer">About
+                            className="py-4 hover:bg-gray-100 cursor-pointer">Contact
                             </li>
                             
                         </ul>
