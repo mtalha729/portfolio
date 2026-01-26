@@ -31,15 +31,15 @@ export default function Work()
         <div  className="w-full h-auto  mt-20 pt-20 ">
             
             <div className="w-full h-auto flex flex-wrap justify-center gap-4  md:font-bold text-sm md:text-xl text-gray-950">
-                 <button onClick={()=> setActiveCategory("All")} className={`px-2 md:px-4 py-1 md:py-2 bg-gray-200 rounded-3xl border-[1px] border-gray-400 cursor-pointer 
-                    ${ActiveCategory==="All"?"bg-blue-600 text-white":"bg-gray-200"}`}>All Projects  <span className="px-2 font-normal  rounded-lg bg-gray-300/40 text-[15px]">6</span></button>
-                 <button onClick={()=> setActiveCategory("Amazon")} className={`px-2 md:px-4 py-1 md:py-2  bg-gray-200 rounded-3xl border-[1px] border-gray-400 cursor-pointer 
+                 <button onClick={()=> setActiveCategory("All")} className={`px-2 md:px-4 py-1 md:py-2  rounded-3xl border-[1px] border-gray-400 cursor-pointer 
+                    ${ActiveCategory==="All"? "bg-blue-600 text-white":"bg-gray-200"}`}>All Projects  <span className="px-2 font-normal  rounded-lg bg-gray-300/40 text-[15px]">6</span></button>
+                 <button onClick={()=> setActiveCategory("Amazon")} className={`px-2 md:px-4 py-1 md:py-2   rounded-3xl border-[1px] border-gray-400 cursor-pointer 
                     ${ActiveCategory==="Amazon"?"bg-blue-600 text-white":"bg-gray-200"}`}>Amazon <span className="px-2 font-normal  rounded-lg bg-gray-300/40 text-[15px]">2</span></button>
-                 <button onClick={()=> setActiveCategory("Social Media")} className={`px-2 md:px-4 py-1 md:py-2 bg-gray-200 rounded-3xl border-[1px] border-gray-400 cursor-pointer
+                 <button onClick={()=> setActiveCategory("Social Media")} className={`px-2 md:px-4 py-1 md:py-2  rounded-3xl border-[1px] border-gray-400 cursor-pointer
                     ${ActiveCategory==="Social Media"?"bg-blue-600 text-white":"bg-gray-200"}`}>Social Media <span className="px-2 font-normal  rounded-lg bg-gray-300/40 text-[15px]">1</span></button>
-                 <button  onClick={()=> setActiveCategory("UI/UX")}className={`px-2 md:px-4 py-1 md:py-2 bg-gray-200 rounded-3xl border-[1px] border-gray-400 cursor-pointer
+                 <button  onClick={()=> setActiveCategory("UI/UX")}className={`px-2 md:px-4 py-1 md:py-2  rounded-3xl border-[1px] border-gray-400 cursor-pointer
                     ${ActiveCategory==="UI/UX"?"bg-blue-600 text-white":"bg-gray-200"}`}>UI/UX <span className="px-2 font-normal  rounded-lg bg-gray-300/40 text-[15px]">1</span></button>
-                 <button onClick={()=> setActiveCategory("Other")} className={`px-2 md:px-4 py-1 md:py-2 bg-gray-200 rounded-3xl border-[1px] border-gray-400 cursor-pointer
+                 <button onClick={()=> setActiveCategory("Other")} className={`px-2 md:px-4 py-1 md:py-2  rounded-3xl border-[1px] border-gray-400 cursor-pointer
                     ${ActiveCategory==="Other"?"bg-blue-600 text-white":"bg-gray-200"}`}>Other <span className="px-2 font-normal  rounded-lg bg-gray-300/40 text-[15px]">2</span></button>
 
             </div>
