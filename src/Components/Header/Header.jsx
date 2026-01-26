@@ -87,17 +87,11 @@ export default function Header()
                             onClick={() => {scrollTosection("About");  setmenuopen(false);}}
                             className="py-4 hover:bg-gray-100 cursor-pointer">About
                             </li>
-                            
-                            
-                            <li>
-                            <NavLink
+                            <li
                             onClick={() => {scrollTosection("Contact");  setmenuopen(false);}}
-                            className={({isActive})=> `py-4 hover:bg-gray-100 ${isActive?"border-b-[1px] border-blue-700":""}cursor-pointer`}
-                            >
-                               Contact 
-                            </NavLink>
-                            
+                            className="py-4 hover:bg-gray-100 cursor-pointer">About
                             </li>
+                            
                         </ul>
                         <div >
                             <h3 className="p-5 text-sm font-semibold text-slate-700" >Follow me on:</h3>
