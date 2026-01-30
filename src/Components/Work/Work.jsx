@@ -83,10 +83,10 @@ export default function Work()
                                         
                                         
                                         <div>
-                                            <button src="www.youtube.com" className="mr-3 px-4 py-2 bg-blue-700 rounded-xl text-white text-lg font-semibold">
+                                            <button src="www.youtube.com" className="md:mr-3 mr-1 md:px-4 px-2  py-1 md:py-2 bg-blue-700 rounded-xl text-white md:text-lg text-base font-semibold">
                                           Live Demo
                                         </button>
-                                        <button onClick={(project) => setSelectedModel(!SelectedModel)} className="px-4 py-2 bg-gray-500 rounded-xl text-white text-lg font-semibold" >
+                                        <button onClick={(project) => setSelectedModel(!SelectedModel)} className="md:px-4 md:py-2 px-2 py-1 bg-gray-500 rounded-xl text-white md:text-lg text-base font-semibold" >
                                             Close
                                         </button>
                                         </div>
@@ -95,7 +95,7 @@ export default function Work()
                                     <div className="w-full h-screen flex-1 mt-[100px]">
                                      {/* mt-[100px] to offset fixed header height */}
                                          <div className="w-full h-full bg-gray-200 p-10 flex flex-col justify-center        items-center">
-                                         <h3 className="text-3xl text-gray-800 font-bold">No Images Available</h3>
+                                         <h3 className="text-xl md:text-3xl text-gray-800 font-bold">No Images Available</h3>
                                          
                                          <img src={SelectedModel.gallery} className="w-auto h-auto"/>
                                          <h4>This project doesn't have any images yet.</h4>
