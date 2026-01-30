@@ -78,7 +78,7 @@ export default function Work()
                                         <div className="flex items-center gap-6 text-xl" >
                                          
                                          <button onClick={(project) => setSelectedModel(!SelectedModel)}><IoArrowBackOutline/> </button>
-                                        <h1 className="text-3xl text-gray-900 font-bold">{SelectedModel.title}</h1>   
+                                        <h1 className="text-xl md:text-3xl text-gray-900 font-semibold md:font-bold">{SelectedModel.title}</h1>   
                                         </div>
                                         
                                         
