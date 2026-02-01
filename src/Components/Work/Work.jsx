@@ -17,7 +17,7 @@ export default function Work()
             
     }, [SelectedModel])
     const projects=[
-        {id:1 , title: "This is New one", description:"This is for you",                         category: "Other",    Image: "/images/cardimage1.png",  imgClass:" w-[50%] " , live:"https://password-generator-8av5.vercel.app/"},
+        {id:1 , title: "React Basic Project", description:"Password Generaor",                         category: "Other",    Image: "/images/cardimage1.png",  imgClass:" w-[50%] " , live:"https://password-generator-8av5.vercel.app/"},
         {id:2 , title: "New UI",          description:"New Ui New UI New UI New UI New UI New UI New UI", category: "Amazon",   Image: "/images/newui.png" ,  gallery:["/images/hero1.png", "/images/Talha.png" , "/images/newui.png"]},
         {id:3,  title: "Talha Developments",description:"Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic",                                               category: "Other",    Image: "/images/cardimage1.png", imgClass:" w-[50%] " },
         {id:4 , title: "Modern & Minimalistic",description:"Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic",                      category: "UI/UX" ,   Image: "/images/cardimage2.png" },
@@ -95,10 +95,8 @@ export default function Work()
                                     <div className="w-full h-screen flex-1 mt-[100px]">
                                      {/* mt-[100px] to offset fixed header height */}
                                          <div className="w-full h-full bg-gray-200 p-10 flex flex-col justify-center        items-center">
-                                         <h3 className="text-xl md:text-3xl text-gray-800 font-bold">No Images Available</h3>
                                          
-                                         <img src={SelectedModel.gallery} className="w-auto h-auto"/>
-                                         <a href={SelectedModel.live}>vist {SelectedModel.title}</a>
+                                         <a className="p-6 bg-slate-600 rounded-lg text-white" href={SelectedModel.live}> Click To Vist {SelectedModel.description}</a>
                                          </div>
                                     </div>
                                 </div>
