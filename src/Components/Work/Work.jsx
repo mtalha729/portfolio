@@ -18,7 +18,7 @@ export default function Work()
     }, [SelectedModel])
     const projects=[
         {id:1 , title: "React Basic Project", description:"Password Generaor",                         category: "Other",    Image: "/images/cardimage1.png",  imgClass:" w-[50%] " , live:"https://password-generator-8av5.vercel.app/"},
-        {id:2 , title: "New UI",          description:"New Ui New UI New UI New UI New UI New UI New UI", category: "Amazon",   Image: "/images/newui.png" ,  gallery:["/images/hero1.png", "/images/Talha.png" , "/images/newui.png"]},
+        {id:2 , title: "Luxury Store",          description:"Online Shoping Store developed through AI", category: "Other",   Image: "/images/newui.png" ,  live:"https://online-shoping-store-develped-throu.vercel.app/"},
         {id:3,  title: "Talha Developments",description:"Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic",                                               category: "Other",    Image: "/images/cardimage1.png", imgClass:" w-[50%] " },
         {id:4 , title: "Modern & Minimalistic",description:"Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic Modern & Minimalistic",                      category: "UI/UX" ,   Image: "/images/cardimage2.png" },
         {id:5 , title: "New Projects",         description:"Hey! 👋 How are you doing today?",      category: "Social Media", Image:"/images/cardimage5.png" },
